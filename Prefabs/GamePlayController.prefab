@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1990816185610608810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1990816185610608808}
+  - component: {fileID: 1990816185610608809}
+  m_Layer: 0
+  m_Name: GamePlayController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1990816185610608808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990816185610608810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1990816185610608809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990816185610608810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597aae45fe7ee194cb303a46f449fec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstaclePrefabs:
+  - {fileID: 187984, guid: a1cff92ee0dfefd41b491371b6cca32d, type: 3}
+  - {fileID: 154914, guid: 14526ed5cbbeaac42a8ab7dbcb24ec54, type: 3}
+  - {fileID: 1260534698409246107, guid: a8f4ae4f49a10cc478a890c38eb4d578, type: 3}
+  - {fileID: 155790, guid: 3ad0103d8700fc640b36791268c1d45f, type: 3}
+  - {fileID: 2352908778367128557, guid: 85e63db0605f46a4b97f2da69fa76d02, type: 3}
+  - {fileID: 6412337145729521611, guid: 4ea636da24509724eabc6a13c3addea1, type: 3}
+  - {fileID: 8258984840818583511, guid: 0d0cceb226e7aec4c8cc8815d60d1f5e, type: 3}
+  zombiePrefabs:
+  - {fileID: 3833322207811722680, guid: a4e0d4022dedb17488b642850c472f02, type: 3}
+  - {fileID: 3004819233252604456, guid: cdd053edfc8fb094d9fd9e076d62430e, type: 3}
+  - {fileID: 1102652040573098004, guid: c78d79f075cc54f42888d76773b23010, type: 3}
+  - {fileID: 2605060822581119871, guid: 4cf8eaed1c5310d4f8296e9527da6536, type: 3}
+  - {fileID: 8181416425739926883, guid: 7318340f179713444a875256102e1b80, type: 3}
+  - {fileID: 1412873471828019202, guid: a4f5be91e4acf5844bfbf531d03e6cbe, type: 3}
+  - {fileID: 1475078608068684130, guid: dcd47b1405e64684db185c2209657aac, type: 3}
+  lanes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  minObstacleDelay: 10
+  maxObstacleDelay: 40
+  pausePanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  finalScore: {fileID: 0}
